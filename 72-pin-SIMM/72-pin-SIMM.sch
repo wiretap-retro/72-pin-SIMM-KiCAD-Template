@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "72-pin SIMM Template"
+Date "2022-10-18"
+Rev "0"
+Comp "wiretap"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:72p-SIMM U1
+U 1 1 634DAC44
+P 1850 1850
+F 0 "U1" H 1908 1965 50  0000 C CNN
+F 1 "72p-SIMM" H 1908 1874 50  0000 C CNN
+F 2 "SamacSys_Parts:72p-SIMM" H 1850 1850 50  0001 C CNN
+F 3 "" H 1850 1850 50  0001 C CNN
+	1    1850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U2
+U 1 1 634DBC4B
+P 4400 3550
+F 0 "U2" H 4375 3625 50  0000 C CNN
+F 1 "16Mx4-FPM" H 4375 3534 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 4400 3550 50  0001 C CNN
+F 3 "" H 4400 3550 50  0001 C CNN
+	1    4400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U4
+U 1 1 634DE3DD
+P 5400 3550
+F 0 "U4" H 5375 3625 50  0000 C CNN
+F 1 "16Mx4-FPM" H 5375 3534 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 5400 3550 50  0001 C CNN
+F 3 "" H 5400 3550 50  0001 C CNN
+	1    5400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U6
+U 1 1 634DEC52
+P 6400 3550
+F 0 "U6" H 6375 3625 50  0000 C CNN
+F 1 "16Mx4-FPM" H 6375 3534 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U8
+U 1 1 634DFA83
+P 7400 3550
+F 0 "U8" H 7375 3625 50  0000 C CNN
+F 1 "16Mx4-FPM" H 7375 3534 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 7400 3550 50  0001 C CNN
+F 3 "" H 7400 3550 50  0001 C CNN
+	1    7400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U3
+U 1 1 634E05FB
+P 4400 5450
+F 0 "U3" H 4375 5525 50  0000 C CNN
+F 1 "16Mx4-FPM" H 4375 5434 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 4400 5450 50  0001 C CNN
+F 3 "" H 4400 5450 50  0001 C CNN
+	1    4400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U5
+U 1 1 634E1103
+P 5400 5450
+F 0 "U5" H 5375 5525 50  0000 C CNN
+F 1 "16Mx4-FPM" H 5375 5434 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 5400 5450 50  0001 C CNN
+F 3 "" H 5400 5450 50  0001 C CNN
+	1    5400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U7
+U 1 1 634E2124
+P 6400 5450
+F 0 "U7" H 6375 5525 50  0000 C CNN
+F 1 "16Mx4-FPM" H 6375 5434 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 6400 5450 50  0001 C CNN
+F 3 "" H 6400 5450 50  0001 C CNN
+	1    6400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:16Mx4-FPM U9
+U 1 1 634E274B
+P 7400 5450
+F 0 "U9" H 7375 5525 50  0000 C CNN
+F 1 "16Mx4-FPM" H 7375 5434 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" H 7400 5450 50  0001 C CNN
+F 3 "" H 7400 5450 50  0001 C CNN
+	1    7400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 634E2AD8
+P 5100 3100
+F 0 "C2" H 5192 3146 50  0000 L CNN
+F 1 "C_Small" H 5192 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 3100 50  0001 C CNN
+F 3 "~" H 5100 3100 50  0001 C CNN
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 634E35F4
+P 5600 3100
+F 0 "C4" H 5692 3146 50  0000 L CNN
+F 1 "C_Small" H 5692 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 3100 50  0001 C CNN
+F 3 "~" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 634E397C
+P 6100 3100
+F 0 "C6" H 6192 3146 50  0000 L CNN
+F 1 "C_Small" H 6192 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6100 3100 50  0001 C CNN
+F 3 "~" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 634E3B79
+P 6600 3100
+F 0 "C8" H 6692 3146 50  0000 L CNN
+F 1 "C_Small" H 6692 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 3100 50  0001 C CNN
+F 3 "~" H 6600 3100 50  0001 C CNN
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 634E3E7E
+P 5100 2750
+F 0 "C1" H 5192 2796 50  0000 L CNN
+F 1 "C_Small" H 5192 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 2750 50  0001 C CNN
+F 3 "~" H 5100 2750 50  0001 C CNN
+	1    5100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 634E3F5B
+P 5600 2750
+F 0 "C3" H 5692 2796 50  0000 L CNN
+F 1 "C_Small" H 5692 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 2750 50  0001 C CNN
+F 3 "~" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 634E41E9
+P 6100 2750
+F 0 "C5" H 6192 2796 50  0000 L CNN
+F 1 "C_Small" H 6192 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6100 2750 50  0001 C CNN
+F 3 "~" H 6100 2750 50  0001 C CNN
+	1    6100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 634E448F
+P 6600 2750
+F 0 "C7" H 6692 2796 50  0000 L CNN
+F 1 "C_Small" H 6692 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 2750 50  0001 C CNN
+F 3 "~" H 6600 2750 50  0001 C CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 4900 2300 0    118  ~ 0
+EXAMPLE COMPONENTS
+Wire Notes Line
+	3550 1900 8200 1900
+Wire Notes Line
+	8200 1900 8200 7600
+Wire Notes Line
+	3550 7600 3550 1900
+Wire Notes Line
+	3550 7600 8200 7600
+$EndSCHEMATC
